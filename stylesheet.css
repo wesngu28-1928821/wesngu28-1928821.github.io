@@ -40,19 +40,18 @@ p.twelve {
 .ganyu {
    	width: 768px;
 	height: 432px;
-    float: right;
 	margin: 20px;
 }
 
 .clownfish {
    	width: 50%;
 	height: 50%;
-    float: right;
+   	float: right;
 }
 
 #roundedcorners {
   border-radius: 25px;
-  background: url("Clownfish.jpg");
+  background: url("NFC.jpg");
   background-position: left top;
   background-repeat: repeat;
   padding: 20px; 
