@@ -1,0 +1,61 @@
+body {
+	background-image: url("Crow.jpg");
+}
+
+p {
+	font-size: 14pt;
+	font-family: sans-serif;
+	color: green;
+}
+
+p.dotted {
+	border-style: dotted;
+}	
+
+p.six {
+	font-size: 6pt;
+}
+
+p.twelve {
+	font-size: 12pt;
+}
+
+.container {
+  	position: relative;
+  	text-align: center;
+  	color: white;
+}
+.centered {
+  	position: absolute;
+	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+}
+
+.novice {
+   	width: 50px;
+	height: 50px;
+}
+
+.clownfish {
+   	width: 50%;
+	height: 50%;
+    float: right;
+}
+
+.ganyu {
+   	width: 768px;
+	height: 432px;
+    float: right;
+	margin: 20px;
+}
+
+#roundedcorners {
+  border-radius: 25px;
+  background: url("Clownfish.jpg");
+  background-position: left top;
+  background-repeat: repeat;
+  padding: 20px; 
+  width: 50%;
+  height: 50%;  
+}

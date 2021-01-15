@@ -2,41 +2,25 @@
 <html>
 	<head>
 		<title>HTML CSS</title>
+		<link rel="stylesheet" href="stylesheet.css">
 	</head>
-	<style>
-	body {
-		background-image: url("Crow.jpg");
-	}
-	p.dotted {border-style: dotted;}	
-	.container {
-  		position: relative;
-  		text-align: center;
-  		color: white;
-	}
-	.centered {
-  		position: absolute;
-		top: 50%;
-  		left: 50%;
-  		transform: translate(-50%, -50%);
-	}
-	.clownfish {
-   	 	width: 50%;
-		height: 50%;
-    		float: right;
-	}
-	</style>
 	<body>
 		<h1>Novice + Background Image</h1>
-		<p style="font-size:6vw">This paragraph has a different font size than the other one.</p>
-		<p style="font-size:12vw">This paragraph has a different font size than the other one.</p>
-		<img src="https://preview.redd.it/zcpm62yt5r961.png?width=3840&format=png&auto=webp&s=b9e41693b16ff305b4c2c5d83a68f39f869aac9e" title="Ganyu" style="width:50px;height:50px">
-		<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Mount_Rainier_from_west.jpg/270px-Mount_Rainier_from_west.jpg" title="Mt. Rainier" style="width:50px;height:50px">
+		<p class="six">This paragraph has a different font size than the other one.</p>
+		<p class="twelve">This paragraph has a different font size than the other one.</p>
+		<img src="https://preview.redd.it/zcpm62yt5r961.png?width=3840&format=png&auto=webp&s=b9e41693b16ff305b4c2c5d83a68f39f869aac9e" title="Ganyu" class="novice">
+		<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Mount_Rainier_from_west.jpg/270px-Mount_Rainier_from_west.jpg" title="Mt. Rainier" class="novice">
 	</body>
 	<body>
+	<h1>Apprentice</h1>
 	<div class="container">
-		<img src="Clownfish.jpg" alt="Clownfish" class="clownfish">
+		<img src="Clownfish.jpg" alt="Clownfish" style="width:25%;height:25%;">
 		<div class="centered">Centered</div>
 	</div>
 	<p class="dotted">This sentence has a dotted border.</p>
-	<img src="https://preview.redd.it/zcpm62yt5r961.png?width=3840&format=png&auto=webp&s=b9e41693b16ff305b4c2c5d83a68f39f869aac9e" title="Ganyu" style="width:768px;height:432px;margin:20px">				     
+	<img src="https://preview.redd.it/zcpm62yt5r961.png?width=3840&format=png&auto=webp&s=b9e41693b16ff305b4c2c5d83a68f39f869aac9e" title="Ganyu" class="ganyu">			
+
+	<h1>Expert</h1>
+	<img src="Clownfish.jpg" alt="Clownfish" class="clownfish">
+	<p id="roundedcorners">Rounded corners!</p>
 </html>
