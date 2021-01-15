@@ -37,17 +37,17 @@ p.twelve {
 	height: 50px;
 }
 
-.clownfish {
-   	width: 50%;
-	height: 50%;
-    float: right;
-}
-
 .ganyu {
    	width: 768px;
 	height: 432px;
     float: right;
 	margin: 20px;
+}
+
+.clownfish {
+   	width: 50%;
+	height: 50%;
+    float: right;
 }
 
 #roundedcorners {
@@ -56,6 +56,6 @@ p.twelve {
   background-position: left top;
   background-repeat: repeat;
   padding: 20px; 
-  width: 50%;
-  height: 50%;  
+  width: 200px;
+  height: 150px;  
 }
