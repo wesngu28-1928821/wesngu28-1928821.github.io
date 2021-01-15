@@ -44,14 +44,14 @@ p.twelve {
 }
 
 .clownfish {
-   	width: 50%;
-	height: 50%;
+   	width: 10%;
+	height: 10%;
    	float: right;
 }
 
 #roundedcorners {
   border-radius: 25px;
-  background: url("NFC.jpg");
+  background: url("Clownfish.jpg");
   background-position: left top;
   background-repeat: repeat;
   padding: 20px; 
