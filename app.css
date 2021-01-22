@@ -15,10 +15,10 @@ legend {
 ooga[type=text] {
 }
 
-tel[type=number] {
+tel [type=number] {
 }
 
 textarea {
-	width: 300px;
-	height: 100%;
+	width: 350px;
+	height: 75px;
 }

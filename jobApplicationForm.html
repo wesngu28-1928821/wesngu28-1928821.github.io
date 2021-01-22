@@ -14,12 +14,12 @@
 				
 				<div>
 					<label>First Name:</label>
-					<input id="ooga">
+					<input type="text" name="firstname" placeholder="John">
 				</div>
 				
 				<div>
 					<label>Last Name:</label>
-					<input id="ooga">
+					<input type="text" name="lastname" placeholder="Smith">
 				</div>
 				
 				<div>
@@ -41,50 +41,63 @@
 				<legend>Contact Information</legend>
 				<div>
 					<label>Phone Number:</label>
-					<input id="tel" placeholder="XXX-XX-XXXX">
+					<input type="number" name="phone" placeholder="XXX-XX-XXXX">
 				</div>
 				<div>
 					<label>Email:</label>
-					<input type ="email" name="email">
+					<input type ="email" name="email" placeholder="burneremail@outlook.com">
 				</div>
 			</fieldset>
+			
 			<br>
+			
 			<fieldset>
 				<legend>Time Schedule</legend>
 				<div>
 					<p>Weekly Availability:</p>
-					<input type ="checkbox" id="monday" name="day">
+					<input type ="checkbox" id="monday" name="weekday">
 					<label for="monday">Monday</label><br>
 					<label>If yes, select earliest time:</label>
 					<input type="time" name="work">
+					
 					<br>
-					<input type ="checkbox" id="Tuesday" name="day">
+					
+					<input type ="checkbox" id="Tuesday" name="weekday">
 					<label for="Tuesday">Tuesday</label><br>
 					<label>If yes, select earliest time:</label>
 					<input type="time" name="work">
+					
 					<br>
-					<input type ="checkbox" id="Wednesday" name="day">
+					
+					<input type ="checkbox" id="Wednesday" name="weekday">
 					<label for="Wednesday">Wednesday</label><br>
 					<label>If yes, select earliest time:</label>
 					<input type="time" name="work">
+					
 					<br>
-					<input type ="checkbox" id="Thursday" name="day">
+					
+					<input type ="checkbox" id="Thursday" name="weekday">
 					<label for="Thursday">Thursday</label><br>
 					<label>If yes, select earliest time:</label>
 					<input type="time" name="work">
+					
 					<br>
-					<input type ="checkbox" id="Friday" name="day">
+					
+					<input type ="checkbox" id="Friday" name="weekday">
 					<label for="Friday">Friday</label><br>
 					<label>If yes, select earliest time:</label>
 					<input type="time" name="work">
+					
 				</div>
+				
 				<div>
 					<p>Can you work weekends?:</p>
-					<input type ="radio" id="yes" name="answer" value="yes">
+					<input type ="radio" id="yes" name="weekend" value="yes">
 					<label for="yes">Yes</label>
-					<input type ="radio" id="no" name="answer" value="no">
+					<input type ="radio" id="no" name="weekend" value="no">
 					<label for="no">No</label>
 				</div>
+				
 				<div>
 					<label>Hourly Requests:</label>
 					<select name="hours">
@@ -94,14 +107,18 @@
 						<option value="over">Overtime</option>
 					</select>
 				</div>
+				
 				<div>
 					<label>Any special schedule notes:</label>
 					<br>
 					<textarea name ="work"></textarea>
 				</div>
+				
 			</fieldset>
+			
 			<br>
 			<input type="submit" value="Submit Application">
 			<form action="http://gclass.alexburner.com/formtest.php" method="post">Your application will be sent for processing and review.</form>
+			
 	</body>
 </html>
