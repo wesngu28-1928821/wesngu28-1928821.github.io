@@ -1,0 +1,87 @@
+body {
+	background-image: URL('dark_wood.png');
+}
+
+#Header {
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	border: solid 8px black;
+	text-align: center;
+	background-color: #8E41D5;
+	outline: #FFFFFF solid 10px;
+}
+
+#Header h1 {
+	font-size: 60px;
+	font-family: "Passion One";
+	color: #FFBC00;
+	font-weight: bold;
+}
+
+p {
+	color: #FFFFFF;
+	font-family: "Arial"
+}
+
+h3 {
+	color: #FFBC00;
+	font-size: 40px;
+	font-family: "Passion One";
+	margin-bottom: 0px;
+}
+
+#LeftNav {
+	width: 400px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	border: solid 8px black;
+	float: left;
+	background-color: #8E41D5;
+	border-right-color: #FF0000;
+}
+
+#Content {
+	width: 700px;
+	padding: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	border: solid 8px black;
+	border-radius: 64px;
+	text-align: center;
+	background-color: #8E41D5;
+}
+
+#Footer {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	border: solid 8px black;
+	background-color: #8E41D5;
+}
+
+ul {
+	list-style-type: none;
+	padding-left: 0px;
+	background-color: #8E41D5;
+}
+
+a {
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 24px;
+	hover {font-size:500%;}
+}
+
+#Wrong {
+	text-decoration: line-through;
+}
+
+#Dawgs {
+	text-transform: uppercase;
+}
