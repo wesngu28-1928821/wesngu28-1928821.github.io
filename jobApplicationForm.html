@@ -1,0 +1,107 @@
+<!Doctype html>
+<html>
+	<head>
+		<title>Online Job Application</title>
+		<link rel="stylesheet" type="text/css" href="app.css" />
+	</head>
+	
+	<body>
+		<h2>Job Application</h2>
+		
+			<fieldset>
+			
+				<legend>Basic Information</legend>
+				
+				<div>
+					<label>First Name:</label>
+					<input id="ooga">
+				</div>
+				
+				<div>
+					<label>Last Name:</label>
+					<input id="ooga">
+				</div>
+				
+				<div>
+					<label>Date of Birth:</label>
+					<input type="month" name="dateofbirth">
+				</div>
+				
+				<div>
+					<label>Mother's Maiden Name:</label>
+					<input type="password" name="password">
+				</div>
+				
+			</fieldset>
+			
+			<br>
+			
+			<fieldset>
+			
+				<legend>Contact Information</legend>
+				<div>
+					<label>Phone Number:</label>
+					<input id="tel" placeholder="XXX-XX-XXXX">
+				</div>
+				<div>
+					<label>Email:</label>
+					<input type ="email" name="email">
+				</div>
+			</fieldset>
+			<br>
+			<fieldset>
+				<legend>Time Schedule</legend>
+				<div>
+					<p>Weekly Availability:</p>
+					<input type ="checkbox" id="monday" name="day">
+					<label for="monday">Monday</label><br>
+					<label>If yes, select earliest time:</label>
+					<input type="time" name="work">
+					<br>
+					<input type ="checkbox" id="Tuesday" name="day">
+					<label for="Tuesday">Tuesday</label><br>
+					<label>If yes, select earliest time:</label>
+					<input type="time" name="work">
+					<br>
+					<input type ="checkbox" id="Wednesday" name="day">
+					<label for="Wednesday">Wednesday</label><br>
+					<label>If yes, select earliest time:</label>
+					<input type="time" name="work">
+					<br>
+					<input type ="checkbox" id="Thursday" name="day">
+					<label for="Thursday">Thursday</label><br>
+					<label>If yes, select earliest time:</label>
+					<input type="time" name="work">
+					<br>
+					<input type ="checkbox" id="Friday" name="day">
+					<label for="Friday">Friday</label><br>
+					<label>If yes, select earliest time:</label>
+					<input type="time" name="work">
+				</div>
+				<div>
+					<p>Can you work weekends?:</p>
+					<input type ="radio" id="yes" name="answer" value="yes">
+					<label for="yes">Yes</label>
+					<input type ="radio" id="no" name="answer" value="no">
+					<label for="no">No</label>
+				</div>
+				<div>
+					<label>Hourly Requests:</label>
+					<select name="hours">
+						<option value="short">8-10</option>
+						<option value="medium">20-30</option>
+						<option value="normal">30-40</option>
+						<option value="over">Overtime</option>
+					</select>
+				</div>
+				<div>
+					<label>Any special schedule notes:</label>
+					<br>
+					<textarea name ="work"></textarea>
+				</div>
+			</fieldset>
+			<br>
+			<input type="submit" value="Submit Application">
+			<form action="http://gclass.alexburner.com/formtest.php" method="post">Your application will be sent for processing and review.</form>
+	</body>
+</html>
